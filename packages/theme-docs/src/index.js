@@ -11,6 +11,9 @@ export default userConfig => defu.fn(userConfig, {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ]
   },
+  generate: {
+    routes: ['/']
+  },
   transpile: [
     __dirname // transpile node_modules/@nuxt/content-theme-docs
   ],
